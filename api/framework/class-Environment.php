@@ -671,7 +671,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 10 30
+							PHPBoost 5.2 - last update: 2019 03 26
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -693,7 +693,7 @@
 							<b>Contributor:</b>
 							janus57 <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;">&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#64;&#x6a;&#97;&#x6e;&#117;&#x73;&#53;&#x37;&#46;&#x66;&#114;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Environment.php#3-469" title="Go to source code">core/environment/Environment.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Environment.php#3-471" title="Go to source code">core/environment/Environment.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -1406,7 +1406,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_get_phpboost_version">#</a>
 						<code>
-<a href="source-class-Environment.php#399-408" title="Go to source code">get_phpboost_version</a>( )
+<a href="source-class-Environment.php#399-406" title="Go to source code">get_phpboost_version</a>( )
 						</code>
 
 							<div class="description short">
@@ -1421,6 +1421,45 @@ users management...) as well as the graphical environment.</p>
 								<h6>Returns</h6>
 								<div class="list">
 									string<br>the full phpboost version with its build number
+								</div>
+
+
+
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="get_phpboost_minor_version" id="_get_phpboost_minor_version">
+
+				<td class="attributes">
+					<code>
+						 public static
+
+						string
+						
+					</code>
+				</td>
+
+				<td class="name">
+					<div>
+						<a class="anchor" href="#_get_phpboost_minor_version">#</a>
+						<code>
+<a href="source-class-Environment.php#408-418" title="Go to source code">get_phpboost_minor_version</a>( )
+						</code>
+
+							<div class="description short">
+								<p>Returns phpboost minor version (build number)</p>
+							</div>
+
+						<div class="description detailed hidden">
+							<p>Returns phpboost minor version (build number)</p>
+
+
+
+								<h6>Returns</h6>
+								<div class="list">
+									string<br>the minor version
 								</div>
 
 
@@ -1445,7 +1484,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_display">#</a>
 						<code>
-<a href="source-class-Environment.php#418-424" title="Go to source code">display</a>( <span> <var>$content</var></span> )
+<a href="source-class-Environment.php#420-426" title="Go to source code">display</a>( <span> <var>$content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1480,7 +1519,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_set_graphical_environment">#</a>
 						<code>
-<a href="source-class-Environment.php#426-429" title="Go to source code">set_graphical_environment</a>( <span><code><a href="class-GraphicalEnvironment.php">GraphicalEnvironment</a></code> <var>$env</var></span> )
+<a href="source-class-Environment.php#428-431" title="Go to source code">set_graphical_environment</a>( <span><code><a href="class-GraphicalEnvironment.php">GraphicalEnvironment</a></code> <var>$env</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1515,7 +1554,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_destroy">#</a>
 						<code>
-<a href="source-class-Environment.php#431-436" title="Go to source code">destroy</a>( )
+<a href="source-class-Environment.php#433-438" title="Go to source code">destroy</a>( )
 						</code>
 
 							<div class="description short">
@@ -1550,7 +1589,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_get_graphical_environment">#</a>
 						<code>
-<a href="source-class-Environment.php#448-458" title="Go to source code">get_graphical_environment</a>( )
+<a href="source-class-Environment.php#450-460" title="Go to source code">get_graphical_environment</a>( )
 						</code>
 
 							<div class="description short">
@@ -1589,7 +1628,7 @@ users management...) as well as the graphical environment.</p>
 					<div>
 						<a class="anchor" href="#_try_to_increase_max_execution_time">#</a>
 						<code>
-<a href="source-class-Environment.php#460-468" title="Go to source code">try_to_increase_max_execution_time</a>( )
+<a href="source-class-Environment.php#462-470" title="Go to source code">try_to_increase_max_execution_time</a>( )
 						</code>
 
 							<div class="description short">

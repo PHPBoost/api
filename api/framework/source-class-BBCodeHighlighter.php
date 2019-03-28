@@ -784,6 +784,7 @@
 					<li><a href="class-File.php" class="cssmenu-title">File</a></li>
 					<li><a href="class-FileSystemDataStore.php" class="cssmenu-title">FileSystemDataStore</a></li>
 					<li><a href="class-FileSystemElement.php" class="cssmenu-title">FileSystemElement</a></li>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FileTemplate.php" class="cssmenu-title">FileTemplate</a></li>
 					<li><a href="class-FileTemplateLoader.php" class="cssmenu-title">FileTemplateLoader</a></li>
 					<li><a href="class-FileType.php" class="cssmenu-title">FileType</a></li>
@@ -1309,7 +1310,7 @@
 </span></span><span id="12" class="l"><span class="php-comment"> * @contributor mipel &lt;mipel@phpboost.com&gt;
 </span></span><span id="13" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
 </span></span><span id="14" class="l"><span class="php-comment"> * @contributor Arnaud GENET &lt;elenwii@phpboost.com&gt;
-</span></span><span id="15" class="l"><span class="php-comment">  * @contributor xela &lt;xela@phpboost.com&gt;
+</span></span><span id="15" class="l"><span class="php-comment"> * @contributor xela &lt;xela@phpboost.com&gt;
 </span></span><span id="16" class="l"><span class="php-comment">*/</span>
 </span><span id="17" class="l">
 </span><span id="18" class="l"><span class="php-keyword1">class</span> BBCodeHighlighter <span class="php-keyword1">extends</span> AbstractParser

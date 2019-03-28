@@ -676,7 +676,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 11 09
+							PHPBoost 5.2 - last update: 2019 03 26
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -694,7 +694,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdministratorAlertService.php#19-234" title="Go to source code">phpboost/event/AdministratorAlertService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-AdministratorAlertService.php#19-260" title="Go to source code">phpboost/event/AdministratorAlertService.class.php</a></span>
 			</div>
 
 
@@ -842,6 +842,45 @@ It will only return the alert which match all the criterias.</p>
 					</div>
 				</td>
 			</tr>
+			<tr data-order="get_unread_alerts" id="_get_unread_alerts">
+
+				<td class="attributes">
+					<code>
+						 public static
+
+						<code><a href="class-AdministratorAlert.php">AdministratorAlert</a>[]</code>
+						
+					</code>
+				</td>
+
+				<td class="name">
+					<div>
+						<a class="anchor" href="#_get_unread_alerts">#</a>
+						<code>
+<a href="source-class-AdministratorAlertService.php#111-135" title="Go to source code">get_unread_alerts</a>( )
+						</code>
+
+							<div class="description short">
+								<p>Builds a list of unread alerts.</p>
+							</div>
+
+						<div class="description detailed hidden">
+							<p>Builds a list of unread alerts.</p>
+
+
+
+								<h6>Returns</h6>
+								<div class="list">
+									<code><a href="class-AdministratorAlert.php">AdministratorAlert</a>[]</code><br>The list of the matching alerts.
+								</div>
+
+
+
+
+						</div>
+					</div>
+				</td>
+			</tr>
 			<tr data-order="find_by_identifier" id="_find_by_identifier">
 
 				<td class="attributes">
@@ -857,7 +896,7 @@ It will only return the alert which match all the criterias.</p>
 					<div>
 						<a class="anchor" href="#_find_by_identifier">#</a>
 						<code>
-<a href="source-class-AdministratorAlertService.php#111-137" title="Go to source code">find_by_identifier</a>( <span>string <var>$identifier</var></span>, <span>string <var>$type</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-AdministratorAlertService.php#137-163" title="Go to source code">find_by_identifier</a>( <span>string <var>$identifier</var></span>, <span>string <var>$type</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -903,7 +942,7 @@ It will only return the alert which match all the criterias.</p>
 					<div>
 						<a class="anchor" href="#_get_all_alerts">#</a>
 						<code>
-<a href="source-class-AdministratorAlertService.php#139-170" title="Go to source code">get_all_alerts</a>( <span>string <var>$criteria</var> = <span class="php-quote">'creation_date'</span></span>, <span>string <var>$order</var> = <span class="php-quote">'desc'</span></span>, <span>integer <var>$begin</var> = <span class="php-num">0</span></span>, <span>integer <var>$number</var> = <span class="php-num">20</span></span> )
+<a href="source-class-AdministratorAlertService.php#165-196" title="Go to source code">get_all_alerts</a>( <span>string <var>$criteria</var> = <span class="php-quote">'creation_date'</span></span>, <span>string <var>$order</var> = <span class="php-quote">'desc'</span></span>, <span>integer <var>$begin</var> = <span class="php-num">0</span></span>, <span>integer <var>$number</var> = <span class="php-num">20</span></span> )
 						</code>
 
 							<div class="description short">
@@ -954,7 +993,7 @@ current_status, creation_date, identifier, id_in_module, type, priority, descrip
 					<div>
 						<a class="anchor" href="#_save_alert">#</a>
 						<code>
-<a href="source-class-AdministratorAlertService.php#172-199" title="Go to source code">save_alert</a>( <span><code><a href="class-AdministratorAlert.php">AdministratorAlert</a></code> <var>$alert</var></span> )
+<a href="source-class-AdministratorAlertService.php#198-225" title="Go to source code">save_alert</a>( <span><code><a href="class-AdministratorAlert.php">AdministratorAlert</a></code> <var>$alert</var></span> )
 						</code>
 
 							<div class="description short">
@@ -994,7 +1033,7 @@ current_status, creation_date, identifier, id_in_module, type, priority, descrip
 					<div>
 						<a class="anchor" href="#_delete_alert">#</a>
 						<code>
-<a href="source-class-AdministratorAlertService.php#201-215" title="Go to source code">delete_alert</a>( <span><code><a href="class-AdministratorAlert.php">AdministratorAlert</a></code> <var>$alert</var></span> )
+<a href="source-class-AdministratorAlertService.php#227-241" title="Go to source code">delete_alert</a>( <span><code><a href="class-AdministratorAlert.php">AdministratorAlert</a></code> <var>$alert</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1034,7 +1073,7 @@ current_status, creation_date, identifier, id_in_module, type, priority, descrip
 					<div>
 						<a class="anchor" href="#_get_number_unread_alerts">#</a>
 						<code>
-<a href="source-class-AdministratorAlertService.php#217-224" title="Go to source code">get_number_unread_alerts</a>( )
+<a href="source-class-AdministratorAlertService.php#243-250" title="Go to source code">get_number_unread_alerts</a>( )
 						</code>
 
 							<div class="description short">
@@ -1073,7 +1112,7 @@ current_status, creation_date, identifier, id_in_module, type, priority, descrip
 					<div>
 						<a class="anchor" href="#_get_number_alerts">#</a>
 						<code>
-<a href="source-class-AdministratorAlertService.php#226-233" title="Go to source code">get_number_alerts</a>( )
+<a href="source-class-AdministratorAlertService.php#252-259" title="Go to source code">get_number_alerts</a>( )
 						</code>
 
 							<div class="description short">

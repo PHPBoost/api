@@ -676,7 +676,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2015 06 30
+							PHPBoost 5.2 - last update: 2019 02 02
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -686,7 +686,11 @@
 							<b>Contributor:</b>
 							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemeConfigurationManager.php#3-56" title="Go to source code">phpboost/theme/ThemeConfigurationManager.class.php</a></span>
+						<span class="infos-options">
+							<b>Contributor:</b>
+							Sebastien LARTIGUE <a href="&#109;&#x61;i&#108;&#x74;o&#58;&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x62;a&#98;&#x73;o&#108;&#x75;&#110;&#101;&#x40;&#112;&#104;&#x70;&#98;&#111;&#x6f;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a>
+						</span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-ThemeConfigurationManager.php#3-74" title="Go to source code">phpboost/theme/ThemeConfigurationManager.class.php</a></span>
 			</div>
 
 
@@ -720,7 +724,7 @@
 					<div>
 						<a class="anchor" href="#_get">#</a>
 						<code>
-<a href="source-class-ThemeConfigurationManager.php#17-26" title="Go to source code">get</a>( <span> <var>$theme_id</var></span> )
+<a href="source-class-ThemeConfigurationManager.php#18-27" title="Go to source code">get</a>( <span> <var>$theme_id</var></span> )
 						</code>
 
 							<div class="description short">

@@ -686,7 +686,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 11 09
+							PHPBoost 5.2 - last update: 2019 02 28
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -708,7 +708,7 @@
 							<b>Contributor:</b>
 							mipel <a href="&#x6d;&#97;i&#x6c;&#116;o&#x3a;&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#109;&#105;&#x70;&#101;&#108;&#x40;&#112;&#104;&#x70;&#x62;&#111;&#x6f;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionData.php#3-516" title="Go to source code">phpboost/user/session/SessionData.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-SessionData.php#3-514" title="Go to source code">phpboost/user/session/SessionData.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -1843,7 +1843,7 @@
 					<div>
 						<a class="anchor" href="#_update_location">#</a>
 						<code>
-<a href="source-class-SessionData.php#328-351" title="Go to source code">update_location</a>( <span> <var>$title_page</var></span>, <span> <var>$location_id</var> = <span class="php-quote">''</span></span> )
+<a href="source-class-SessionData.php#328-349" title="Go to source code">update_location</a>( <span> <var>$title_page</var></span>, <span> <var>$location_id</var> = <span class="php-quote">''</span></span> )
 						</code>
 
 							<div class="description short">
@@ -1878,7 +1878,7 @@
 					<div>
 						<a class="anchor" href="#_recheck_cached_data_from_user_id">#</a>
 						<code>
-<a href="source-class-SessionData.php#353-360" title="Go to source code">recheck_cached_data_from_user_id</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-SessionData.php#351-358" title="Go to source code">recheck_cached_data_from_user_id</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1913,7 +1913,7 @@
 					<div>
 						<a class="anchor" href="#_from_cookie">#</a>
 						<code>
-<a href="source-class-SessionData.php#418-446" title="Go to source code">from_cookie</a>( <span>string <var>$cookie_content</var></span> )
+<a href="source-class-SessionData.php#416-444" title="Go to source code">from_cookie</a>( <span>string <var>$cookie_content</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1957,7 +1957,7 @@
 					<div>
 						<a class="anchor" href="#_update_user_info">#</a>
 						<code>
-<a href="source-class-SessionData.php#484-487" title="Go to source code">update_user_info</a>( <span> <var>$user_id</var></span> )
+<a href="source-class-SessionData.php#482-485" title="Go to source code">update_user_info</a>( <span> <var>$user_id</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1992,7 +1992,7 @@
 					<div>
 						<a class="anchor" href="#_csrf_post_protect">#</a>
 						<code>
-<a href="source-class-SessionData.php#489-497" title="Go to source code">csrf_post_protect</a>( )
+<a href="source-class-SessionData.php#487-495" title="Go to source code">csrf_post_protect</a>( )
 						</code>
 
 							<div class="description short">
@@ -2029,7 +2029,7 @@ If the token of the request doesn't match the token of the current session, this
 					<div>
 						<a class="anchor" href="#_csrf_get_protect">#</a>
 						<code>
-<a href="source-class-SessionData.php#499-506" title="Go to source code">csrf_get_protect</a>( )
+<a href="source-class-SessionData.php#497-504" title="Go to source code">csrf_get_protect</a>( )
 						</code>
 
 							<div class="description short">

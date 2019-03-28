@@ -673,7 +673,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 11 22
+							PHPBoost 5.2 - last update: 2019 02 10
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -687,7 +687,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-CurrentUser.php#3-200" title="Go to source code">phpboost/user/CurrentUser.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-CurrentUser.php#3-207" title="Go to source code">phpboost/user/CurrentUser.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -738,7 +738,7 @@
 					<div>
 						<a class="anchor" href="#_from_session">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#17-21" title="Go to source code">from_session</a>( )
+<a href="source-class-CurrentUser.php#17-28" title="Go to source code">from_session</a>( )
 						</code>
 
 							<div class="description short">
@@ -773,7 +773,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#25-48" title="Go to source code">__construct</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
+<a href="source-class-CurrentUser.php#32-55" title="Go to source code">__construct</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
 						</code>
 
 							<div class="description short">
@@ -808,7 +808,7 @@
 					<div>
 						<a class="anchor" href="#_build_groups">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#50-61" title="Go to source code">build_groups</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
+<a href="source-class-CurrentUser.php#57-68" title="Go to source code">build_groups</a>( <span><code><a href="class-SessionData.php">SessionData</a></code> <var>$session</var></span> )
 						</code>
 
 							<div class="description short">
@@ -843,7 +843,7 @@
 					<div>
 						<a class="anchor" href="#_check_level">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#63-66" title="Go to source code">check_level</a>( <span> <var>$level</var></span> )
+<a href="source-class-CurrentUser.php#70-73" title="Go to source code">check_level</a>( <span> <var>$level</var></span> )
 						</code>
 
 							<div class="description short">
@@ -878,7 +878,7 @@
 					<div>
 						<a class="anchor" href="#_check_auth">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#68-84" title="Go to source code">check_auth</a>( <span> <var>$array_auth_groups</var></span>, <span> <var>$authorization_bit</var></span> )
+<a href="source-class-CurrentUser.php#75-91" title="Go to source code">check_auth</a>( <span> <var>$array_auth_groups</var></span>, <span> <var>$authorization_bit</var></span> )
 						</code>
 
 							<div class="description short">
@@ -913,7 +913,7 @@
 					<div>
 						<a class="anchor" href="#_check_max_value">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#86-109" title="Go to source code">check_max_value</a>( <span> <var>$key_auth</var></span>, <span> <var>$max_value_compare</var> = <span class="php-num">0</span></span> )
+<a href="source-class-CurrentUser.php#93-116" title="Go to source code">check_max_value</a>( <span> <var>$key_auth</var></span>, <span> <var>$max_value_compare</var> = <span class="php-num">0</span></span> )
 						</code>
 
 							<div class="description short">
@@ -948,7 +948,7 @@
 					<div>
 						<a class="anchor" href="#_update_theme">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#111-129" title="Go to source code">update_theme</a>( <span>string <var>$theme</var></span> )
+<a href="source-class-CurrentUser.php#118-136" title="Go to source code">update_theme</a>( <span>string <var>$theme</var></span> )
 						</code>
 
 							<div class="description short">
@@ -988,7 +988,7 @@
 					<div>
 						<a class="anchor" href="#_update_lang">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#131-149" title="Go to source code">update_lang</a>( <span>string <var>$lang</var></span> )
+<a href="source-class-CurrentUser.php#138-156" title="Go to source code">update_lang</a>( <span>string <var>$lang</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1028,7 +1028,7 @@
 					<div>
 						<a class="anchor" href="#_update_visitor_display_name">#</a>
 						<code>
-<a href="source-class-CurrentUser.php#151-155" title="Go to source code">update_visitor_display_name</a>( )
+<a href="source-class-CurrentUser.php#158-162" title="Go to source code">update_visitor_display_name</a>( )
 						</code>
 
 							<div class="description short">

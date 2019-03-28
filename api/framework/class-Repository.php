@@ -673,13 +673,17 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2014 12 22
+							PHPBoost 5.2 - last update: 2019 03 26
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
 							PHPBoost 2.0 - 2008 08 17
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-Repository.php#3-77" title="Go to source code">phpboost/update/Repository.class.php</a></span>
+						<span class="infos-options">
+							<b>Contributor:</b>
+							Julien BRISWALTER <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;:&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x6a;&#x31;&#x2e;&#115;&#101;&#116;h&#x40;&#x70;&#x68;&#112;&#98;&#111;o&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a>
+						</span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-Repository.php#3-84" title="Go to source code">phpboost/update/Repository.class.php</a></span>
 			</div>
 
 
@@ -713,7 +717,7 @@
 					<div>
 						<a class="anchor" href="#___construct">#</a>
 						<code>
-<a href="source-class-Repository.php#17-32" title="Go to source code">__construct</a>( <span> <var>$url</var></span> )
+<a href="source-class-Repository.php#18-33" title="Go to source code">__construct</a>( <span> <var>$url</var></span> )
 						</code>
 
 							<div class="description short">
@@ -753,7 +757,7 @@
 					<div>
 						<a class="anchor" href="#_check">#</a>
 						<code>
-<a href="source-class-Repository.php#34-71" title="Go to source code">check</a>( <span> <var>$app</var></span> )
+<a href="source-class-Repository.php#35-78" title="Go to source code">check</a>( <span> <var>$app</var></span> )
 						</code>
 
 							<div class="description short">
@@ -793,7 +797,7 @@
 					<div>
 						<a class="anchor" href="#_get_url">#</a>
 						<code>
-<a href="source-class-Repository.php#73-76" title="Go to source code">get_url</a>( )
+<a href="source-class-Repository.php#80-83" title="Go to source code">get_url</a>( )
 						</code>
 
 							<div class="description short">

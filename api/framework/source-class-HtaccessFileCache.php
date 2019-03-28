@@ -784,6 +784,7 @@
 					<li><a href="class-File.php" class="cssmenu-title">File</a></li>
 					<li><a href="class-FileSystemDataStore.php" class="cssmenu-title">FileSystemDataStore</a></li>
 					<li><a href="class-FileSystemElement.php" class="cssmenu-title">FileSystemElement</a></li>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FileTemplate.php" class="cssmenu-title">FileTemplate</a></li>
 					<li><a href="class-FileTemplateLoader.php" class="cssmenu-title">FileTemplateLoader</a></li>
 					<li><a href="class-FileType.php" class="cssmenu-title">FileType</a></li>
@@ -1304,7 +1305,7 @@
 </span></span><span id="7" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
 </span></span><span id="8" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
 </span></span><span id="9" class="l"><span class="php-comment"> * @author      Benoit SAUTEL &lt;ben.popeye@phpboost.com&gt;
-</span></span><span id="10" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 11 10
+</span></span><span id="10" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2019 03 16
 </span></span><span id="11" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2009 10 22
 </span></span><span id="12" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
 </span></span><span id="13" class="l"><span class="php-comment"> * @contributor janus57 &lt;janus57@janus57.fr&gt;
@@ -1439,11 +1440,11 @@
 </span><span id="142" class="l">            }
 </span><span id="143" class="l">
 </span><span id="144" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Don\'t allow any pages to be framed externally - Defends against CSRF'</span>);
-</span><span id="145" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-Frame-Options SAMEORIGIN'</span>);
+</span><span id="145" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set X-Frame-Options SAMEORIGIN'</span>);
 </span><span id="146" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Control Cross-Domain Policies'</span>);
-</span><span id="147" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-Permitted-Cross-Domain-Policies &quot;master-only&quot;'</span>);
+</span><span id="147" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set X-Permitted-Cross-Domain-Policies &quot;master-only&quot;'</span>);
 </span><span id="148" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Turn on IE8-IE9 XSS prevention tools'</span>);
-</span><span id="149" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header set X-XSS-Protection &quot;1; mode=block&quot;'</span>);
+</span><span id="149" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set X-XSS-Protection &quot;1; mode=block&quot;'</span>);
 </span><span id="150" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Prevent mime based attacks'</span>);
 </span><span id="151" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   Header always set X-Content-Type-Options &quot;nosniff&quot;'</span>);
 </span><span id="152" class="l">            <span class="php-var">$this</span>-&gt;add_line(<span class="php-quote">'   # Use this to force IE to hide that annoying browser compatibility button in the address bar.'</span>);

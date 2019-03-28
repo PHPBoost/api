@@ -611,6 +611,7 @@
 					<div class="module-mini-contents">
 						<nav id="cssmenu-classes" class="cssmenu cssmenu-vertical cssmenu-left">
 				<ul>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FormatingHelper.php" class="cssmenu-title">FormatingHelper</a></li>
 					<li><a href="class-MessageHelper.php" class="cssmenu-title">MessageHelper</a></li>
 					<li><a href="class-NumberHelper.php" class="cssmenu-title">NumberHelper</a></li>

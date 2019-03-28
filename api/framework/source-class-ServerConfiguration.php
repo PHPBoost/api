@@ -784,6 +784,7 @@
 					<li><a href="class-File.php" class="cssmenu-title">File</a></li>
 					<li><a href="class-FileSystemDataStore.php" class="cssmenu-title">FileSystemDataStore</a></li>
 					<li><a href="class-FileSystemElement.php" class="cssmenu-title">FileSystemElement</a></li>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FileTemplate.php" class="cssmenu-title">FileTemplate</a></li>
 					<li><a href="class-FileTemplateLoader.php" class="cssmenu-title">FileTemplateLoader</a></li>
 					<li><a href="class-FileType.php" class="cssmenu-title">FileType</a></li>
@@ -1302,7 +1303,7 @@
 </span></span><span id="5" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
 </span></span><span id="6" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
 </span></span><span id="7" class="l"><span class="php-comment"> * @author      Loic ROUCHON &lt;horn@phpboost.com&gt;
-</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2019 01 24
+</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2019 03 26
 </span></span><span id="9" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2010 05 30
 </span></span><span id="10" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
 </span></span><span id="11" class="l"><span class="php-comment"> * @contributor mipel &lt;mipel@phpboost.com&gt;
@@ -1366,7 +1367,7 @@
 </span><span id="69" class="l">        {
 </span><span id="70" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword2">in_array</span>(self::<span class="php-var">$mod_rewrite</span>, <span class="php-keyword2">apache_get_modules</span>());
 </span><span id="71" class="l">        }
-</span><span id="72" class="l">        <span class="php-keyword1">throw</span> <span class="php-keyword1">new</span> UnsupportedOperationException(<span class="php-quote">'can\'t check url rewriting availabilty'</span>);
+</span><span id="72" class="l">        <span class="php-keyword1">throw</span> <span class="php-keyword1">new</span> UnsupportedOperationException(<span class="php-quote">'can\'t check url rewriting availability'</span>);
 </span><span id="73" class="l">    }
 </span><span id="74" class="l">}
 </span><span id="75" class="l"><span class="xlang">?&gt;</span>

@@ -672,7 +672,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2018 06 19
+							PHPBoost 5.2 - last update: 2019 02 14
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -686,7 +686,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-NotationService.php#3-358" title="Go to source code">content/notation/NotationService.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-NotationService.php#3-367" title="Go to source code">content/notation/NotationService.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -758,7 +758,7 @@
 					<div>
 						<a class="anchor" href="#_display_static_image">#</a>
 						<code>
-<a href="source-class-NotationService.php#30-99" title="Go to source code">display_static_image</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span>, <span>boolean <var>$average_notes</var>,…</span> )
+<a href="source-class-NotationService.php#30-108" title="Go to source code">display_static_image</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span>, <span>boolean <var>$average_notes</var>,…</span> )
 						</code>
 
 							<div class="description short">
@@ -800,7 +800,7 @@
 					<div>
 						<a class="anchor" href="#_display_active_image">#</a>
 						<code>
-<a href="source-class-NotationService.php#101-192" title="Go to source code">display_active_image</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
+<a href="source-class-NotationService.php#110-201" title="Go to source code">display_active_image</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -840,7 +840,7 @@
 					<div>
 						<a class="anchor" href="#_update_notation_scale">#</a>
 						<code>
-<a href="source-class-NotationService.php#194-208" title="Go to source code">update_notation_scale</a>( <span>string <var>$module_name</var></span>, <span>string <var>$old_notation_scale</var></span>, <span>string <var>$new_notation_scale</var></span> )
+<a href="source-class-NotationService.php#203-217" title="Go to source code">update_notation_scale</a>( <span>string <var>$module_name</var></span>, <span>string <var>$old_notation_scale</var></span>, <span>string <var>$new_notation_scale</var></span> )
 						</code>
 
 							<div class="description short">
@@ -884,7 +884,7 @@
 					<div>
 						<a class="anchor" href="#_delete_notes_id_in_module">#</a>
 						<code>
-<a href="source-class-NotationService.php#210-225" title="Go to source code">delete_notes_id_in_module</a>( <span>string <var>$module_name</var></span>, <span>string <var>$id_in_module</var></span> )
+<a href="source-class-NotationService.php#219-234" title="Go to source code">delete_notes_id_in_module</a>( <span>string <var>$module_name</var></span>, <span>string <var>$id_in_module</var></span> )
 						</code>
 
 							<div class="description short">
@@ -926,7 +926,7 @@
 					<div>
 						<a class="anchor" href="#_delete_notes_module">#</a>
 						<code>
-<a href="source-class-NotationService.php#227-241" title="Go to source code">delete_notes_module</a>( <span>string <var>$module_name</var></span> )
+<a href="source-class-NotationService.php#236-250" title="Go to source code">delete_notes_module</a>( <span>string <var>$module_name</var></span> )
 						</code>
 
 							<div class="description short">
@@ -966,7 +966,7 @@
 					<div>
 						<a class="anchor" href="#_get_number_notes">#</a>
 						<code>
-<a href="source-class-NotationService.php#243-254" title="Go to source code">get_number_notes</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
+<a href="source-class-NotationService.php#252-263" title="Go to source code">get_number_notes</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1001,7 +1001,7 @@
 					<div>
 						<a class="anchor" href="#_get_average_notes">#</a>
 						<code>
-<a href="source-class-NotationService.php#256-267" title="Go to source code">get_average_notes</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
+<a href="source-class-NotationService.php#265-276" title="Go to source code">get_average_notes</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
 						</code>
 
 							<div class="description short">
@@ -1036,7 +1036,7 @@
 					<div>
 						<a class="anchor" href="#_get_informations_note">#</a>
 						<code>
-<a href="source-class-NotationService.php#269-290" title="Go to source code">get_informations_note</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
+<a href="source-class-NotationService.php#278-299" title="Go to source code">get_informations_note</a>( <span><code><a href="class-Notation.php">Notation</a></code> <var>$notation</var></span> )
 						</code>
 
 							<div class="description short">

@@ -674,7 +674,7 @@
 						</span>
 						<span class="infos-options">
 							<b>Version:</b>
-							PHPBoost 5.2 - last update: 2019 01 08
+							PHPBoost 5.2 - last update: 2019 03 27
 						</span>
 						<span class="infos-options">
 							<b>Since:</b>
@@ -696,7 +696,7 @@
 							<b>Contributor:</b>
 							Arnaud GENET <a href="&#109;a&#x69;l&#x74;&#111;&#x3a;&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m">&#101;&#x6c;&#101;&#x6e;&#119;&#x69;&#105;&#x40;&#112;&#x68;&#112;&#x62;&#111;&#x6f;&#115;&#x74;&#46;&#x63;&#111;m</a>
 						</span>
-					<span class="infos-options"><b>Located at:</b> <a href="source-class-File.php#3-326" title="Go to source code">io/filesystem/File.class.php</a></span>
+					<span class="infos-options"><b>Located at:</b> <a href="source-class-File.php#3-336" title="Go to source code">io/filesystem/File.class.php</a></span>
 			</div>
 
 			<div class="description">
@@ -1441,6 +1441,50 @@ Locks the file (it won't be readable by another thread which could try to access
 								<div class="list">
 									<code><a href="class-IOException.php">IOException</a></code><br>If the file can neither been read nor created.
 								</div>
+
+
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="get_file_checksum" id="_get_file_checksum">
+
+				<td class="attributes">
+					<code>
+						 public static
+
+						string
+						
+					</code>
+				</td>
+
+				<td class="name">
+					<div>
+						<a class="anchor" href="#_get_file_checksum">#</a>
+						<code>
+<a href="source-class-File.php#327-335" title="Go to source code">get_file_checksum</a>( <span>string <var>$filename</var></span> )
+						</code>
+
+							<div class="description short">
+								<p>Get file checksum in sha256.</p>
+							</div>
+
+						<div class="description detailed hidden">
+							<p>Get file checksum in sha256.</p>
+
+
+								<h6>Parameters</h6>
+								<div class="list"><dl>
+									<dt><var>$filename</var></dt>
+									<dd>Path of the file you want to work with.</dd>
+								</dl></div>
+
+								<h6>Returns</h6>
+								<div class="list">
+									string<br>The hash of the file in sha256.
+								</div>
+
 
 
 

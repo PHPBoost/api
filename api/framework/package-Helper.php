@@ -611,6 +611,7 @@
 					<div class="module-mini-contents">
 						<nav id="cssmenu-classes" class="cssmenu cssmenu-vertical cssmenu-left">
 				<ul>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FormatingHelper.php" class="cssmenu-title">FormatingHelper</a></li>
 					<li><a href="class-MessageHelper.php" class="cssmenu-title">MessageHelper</a></li>
 					<li><a href="class-NumberHelper.php" class="cssmenu-title">NumberHelper</a></li>
@@ -678,6 +679,10 @@
 <div class="responsive-table">
 	<table class="summary" id="classes">
 		<caption>Classes summary</caption>
+<tr>
+	<td class="name"><a href="class-FileSystemHelper.php">FileSystemHelper</a></td>
+	<td class="ellipsis">File System helper</td>
+</tr>
 <tr>
 	<td class="name"><a href="class-FormatingHelper.php">FormatingHelper</a></td>
 	<td class="ellipsis">Formating helper</td>

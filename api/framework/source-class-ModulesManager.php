@@ -784,6 +784,7 @@
 					<li><a href="class-File.php" class="cssmenu-title">File</a></li>
 					<li><a href="class-FileSystemDataStore.php" class="cssmenu-title">FileSystemDataStore</a></li>
 					<li><a href="class-FileSystemElement.php" class="cssmenu-title">FileSystemElement</a></li>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FileTemplate.php" class="cssmenu-title">FileTemplate</a></li>
 					<li><a href="class-FileTemplateLoader.php" class="cssmenu-title">FileTemplateLoader</a></li>
 					<li><a href="class-FileType.php" class="cssmenu-title">FileType</a></li>
@@ -1750,7 +1751,7 @@
 </span><span id="453" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$error</span>;
 </span><span id="454" class="l">    }
 </span><span id="455" class="l">
-</span><span id="456" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> set_module_activation(<span class="php-var">$module_id</span>, bool <span class="php-var">$activated</span>)
+</span><span id="456" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> set_module_activation(<span class="php-var">$module_id</span>, bool <span class="php-var">$activated</span>)
 </span><span id="457" class="l">    {
 </span><span id="458" class="l">        <span class="php-var">$module</span> = self::get_module(<span class="php-var">$module_id</span>);
 </span><span id="459" class="l">        <span class="php-var">$module</span>-&gt;set_activated(<span class="php-var">$activated</span>);
@@ -1758,7 +1759,7 @@
 </span><span id="461" class="l">        ModulesConfig::save();
 </span><span id="462" class="l">    }
 </span><span id="463" class="l">
-</span><span id="464" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> execute_module_installation(<span class="php-var">$module_id</span>)
+</span><span id="464" class="l">    <span class="php-keyword1">private</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> execute_module_installation(<span class="php-var">$module_id</span>)
 </span><span id="465" class="l">    {
 </span><span id="466" class="l">        <span class="php-var">$module_setup</span> = self::get_module_setup(<span class="php-var">$module_id</span>);
 </span><span id="467" class="l">        <span class="php-var">$environment_check</span> = <span class="php-var">$module_setup</span>-&gt;check_environment();

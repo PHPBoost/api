@@ -784,6 +784,7 @@
 					<li><a href="class-File.php" class="cssmenu-title">File</a></li>
 					<li><a href="class-FileSystemDataStore.php" class="cssmenu-title">FileSystemDataStore</a></li>
 					<li><a href="class-FileSystemElement.php" class="cssmenu-title">FileSystemElement</a></li>
+					<li><a href="class-FileSystemHelper.php" class="cssmenu-title">FileSystemHelper</a></li>
 					<li><a href="class-FileTemplate.php" class="cssmenu-title">FileTemplate</a></li>
 					<li><a href="class-FileTemplateLoader.php" class="cssmenu-title">FileTemplateLoader</a></li>
 					<li><a href="class-FileType.php" class="cssmenu-title">FileType</a></li>
@@ -1302,7 +1303,7 @@
 </span></span><span id="5" class="l"><span class="php-comment"> * @copyright   &amp;copy; 2005-2019 PHPBoost
 </span></span><span id="6" class="l"><span class="php-comment"> * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
 </span></span><span id="7" class="l"><span class="php-comment"> * @author      Bruno MERCIER &lt;aiglobulles@gmail.com&gt;
-</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2018 01 14
+</span></span><span id="8" class="l"><span class="php-comment"> * @version     PHPBoost 5.2 - last update: 2019 03 21
 </span></span><span id="9" class="l"><span class="php-comment"> * @since       PHPBoost 3.0 - 2012 01 19
 </span></span><span id="10" class="l"><span class="php-comment"> * @contributor Julien BRISWALTER &lt;j1.seth@phpboost.com&gt;
 </span></span><span id="11" class="l"><span class="php-comment">*/</span>
@@ -1389,8 +1390,8 @@
 </span><span id="92" class="l">        <span class="php-var">$this</span>-&gt;compatibility = <span class="php-var">$config</span>[<span class="php-quote">'compatibility'</span>];
 </span><span id="93" class="l">        <span class="php-var">$this</span>-&gt;identifier = <span class="php-var">$config</span>[<span class="php-quote">'identifier'</span>];
 </span><span id="94" class="l">
-</span><span id="95" class="l">        <span class="php-var">$url</span> = PATH_TO_ROOT . <span class="php-quote">'/images/stats/countries/'</span> . <span class="php-var">$this</span>-&gt;identifier . <span class="php-quote">'.png'</span>;
-</span><span id="96" class="l">        <span class="php-var">$picture</span> = <span class="php-keyword1">new</span> <span class="php-keyword2">File</span>(<span class="php-var">$url</span>);
+</span><span id="95" class="l">        <span class="php-var">$url</span> = <span class="php-quote">'/images/stats/countries/'</span> . <span class="php-var">$this</span>-&gt;identifier . <span class="php-quote">'.png'</span>;
+</span><span id="96" class="l">        <span class="php-var">$picture</span> = <span class="php-keyword1">new</span> <span class="php-keyword2">File</span>(PATH_TO_ROOT . <span class="php-var">$url</span>);
 </span><span id="97" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$picture</span>-&gt;exists())
 </span><span id="98" class="l">            <span class="php-var">$url</span> = <span class="php-quote">''</span>;
 </span><span id="99" class="l">
