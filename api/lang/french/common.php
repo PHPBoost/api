@@ -11,9 +11,9 @@
 #                      French                      #
 ####################################################
 
-$lang['api.module.title'] = 'Documentation API de PBT';
+$lang['module.title'] = 'Documentation API de PBT';
 
 // Config
-$lang['api.config.title'] = 'Configuration du module Api';
-$lang['api.waiting.for.apigen.parser'] = 'En attente d\'un système interne du parser d\'Apigen';
+$lang['config.title'] = 'Configuration du module Api';
+$lang['config.waiting.for.apigen.parser'] = 'En attente d\'un système interne du parser d\'Apigen';
 ?>

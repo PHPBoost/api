@@ -3,38 +3,65 @@
  * @copyright 	&copy; 2005-2019 PHPBoost
  * @license 	https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Sebastien LARTIGUE <babsolune@phpboost.com>
- * @version   	PHPBoost 6.0 - last update: 2022 10 10
+ * @version   	PHPBoost 5.2 - last update: 2019 01 05
  * @since   	PHPBoost 5.1 - 2019 01 05
 */
 
-class AdminApiConfigController extends DefaultAdminModuleController
+class AdminApiConfigController extends AdminModuleController
 {
+	/**
+	 * @var HTMLForm
+	 */
+	private $form;
+	/**
+	 * @var FormButtonSubmit
+	 */
+	private $submit_button;
+
+	private $lang;
+	private $admin_common_lang;
+
+	/**
+	 * @var ApiConfig
+	 */
+	private $config;
+
 	public function execute(HTTPRequestCustom $request)
 	{
+		$this->init();
 
 		$this->build_form();
+
+		$tpl = new StringTemplate('# INCLUDE MSG # # INCLUDE FORM #');
+		$tpl->add_lang($this->lang);
 
 		if ($this->submit_button->has_been_submited() && $this->form->validate())
 		{
 			$this->save();
-			$this->view->put('MESSAGE_HELPER', MessageHelper::display($this->lang['warning.success.config'], MessageHelper::SUCCESS, 4));
+			$tpl->put('MSG', MessageHelper::display(LangLoader::get_message('message.success.config', 'status-messages-common'), MessageHelper::SUCCESS, 4));
 		}
 
-		$this->view->put('CONTENT', $this->form->display());
+		$tpl->put('FORM', $this->form->display());
 
-		return new DefaultAdminDisplayResponse($this->view);
+		return new AdminApiDisplayResponse($tpl, LangLoader::get_message('configuration', 'admin-common'));
+	}
+
+	private function init()
+	{
+		$this->lang = LangLoader::get('common', 'api');
+		$this->config = ApiConfig::load();
 	}
 
 	private function build_form()
 	{
 		$form = new HTMLForm(__CLASS__);
 
-		$fieldset = new FormFieldsetHTML('api_configuration', $this->lang['api.config.title']);
+		$fieldset = new FormFieldsetHTMLHeading('api_configuration', $this->lang['config.title']);
 		$form->add_fieldset($fieldset);
 
-		$fieldset->add_field(new FormFieldFree('waiting_for_apigen_parser', $this->lang['api.waiting.for.apigen.parser'], ''));
+		$fieldset->add_field(new FormFieldFree('waiting_for_apigen_parser', $this->lang['config.waiting.for.apigen.parser'], ''));
 
-		// $fieldset_authorizations = new FormFieldsetHTML('authorizations', $this->lang['authorizations],
+		// $fieldset_authorizations = new FormFieldsetHTML('authorizations', LangLoader::get_message('authorizations', 'common'),
 		// 	array('description' => $this->admin_common_lang['config.authorizations.explain'])
 		// );
 		//

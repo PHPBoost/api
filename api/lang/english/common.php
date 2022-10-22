@@ -11,9 +11,9 @@
 #                      English                     #
 ####################################################
 
-$lang['api.module.title'] = 'PBT API Documentation';
+$lang['module.title'] = 'PBT API Documentation';
 
 // Config
-$lang['api.config.title'] = 'Configuration of the API module';
-$lang['api.waiting.for.apigen.parser'] = 'Waiting for an internal Apigen parser';
+$lang['config.title'] = 'Configuration of the API module';
+$lang['config.waiting.for.apigen.parser'] = 'Waiting for an internal Apigen parser';
 ?>
