@@ -1,0 +1,25 @@
+<?php
+/**
+ * @copyright   &copy; 2005-2026 PHPBoost
+ * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+ * @author      Julien BRISWALTER <j1.seth@phpboost.com>
+ * @version     PHPBoost 6.1 - last update: 2026 05 19
+ * @since       PHPBoost 6.0 - 2019 12 18
+ * @author      Sebastien LARTIGUE <babsolune@phpboost.com>
+*/
+
+class DefaultAdminDisplayResponse extends AdminMenuDisplayResponse
+{
+	public function __construct($view)
+	{
+		parent::__construct($view);
+
+		$this->add_link(LangLoader::get_message('form.configuration', 'form-lang'), $this->module->get_configuration()->get_admin_main_page());
+
+		if ($this->module->get_configuration()->get_documentation())
+			$this->add_link(LangLoader::get_message('form.documentation', 'form-lang'), $this->module->get_configuration()->get_documentation());
+
+		$this->get_graphical_environment()->set_page_title($this->title);
+	}
+}
+?>

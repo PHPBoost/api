@@ -1,0 +1,33 @@
+<?php
+/**
+ * @package     Content
+ * @subpackage  Homepage
+ * @copyright   &copy; 2005-2026 PHPBoost
+ * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+ * @author      Benoit SAUTEL <ben.popeye@phpboost.com>
+ * @version     PHPBoost 6.1 - last update: 2026 05 19
+ * @since       PHPBoost 3.0 - 2011 10 08
+*/
+
+class DefaultHomePage implements HomePage
+{
+	private $title;
+	private $view;
+
+	public function __construct($title, View $view)
+	{
+		$this->title = $title;
+		$this->view = $view;
+	}
+
+	public function get_title()
+	{
+		return $this->title;
+	}
+
+	public function get_view()
+	{
+		return $this->view;
+	}
+}
+?>

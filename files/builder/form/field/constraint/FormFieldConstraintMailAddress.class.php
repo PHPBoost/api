@@ -1,0 +1,34 @@
+<?php
+/**
+ * @package     Builder
+ * @subpackage  Form\field\constraint
+ * @copyright   &copy; 2005-2026 PHPBoost
+ * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
+ * @author      Regis VIARRE <crowkait@phpboost.com>
+ * @version     PHPBoost 6.1 - last update: 2026 05 19
+ * @since       PHPBoost 3.0 - 2010 02 07
+ * @author      Arnaud GENET <elenwii@phpboost.com>
+ * @author      Sebastien LARTIGUE <babsolune@phpboost.com>
+*/
+
+class FormFieldConstraintMailAddress extends FormFieldConstraintRegex
+{
+	public function __construct($error_message = '')
+	{
+		if (empty($error_message))
+		{
+			$error_message = LangLoader::get_message('warning.regex.email', 'warning-lang');
+		}
+		$this->set_validation_error_message($error_message);
+		$mail_service = AppContext::get_mail_service();
+		$regex = $mail_service->get_mail_checking_regex();
+
+		parent::__construct(
+			$regex,
+			$regex,
+			$error_message
+		);
+	}
+}
+
+?>
